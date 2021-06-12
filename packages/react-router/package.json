@@ -1,8 +1,8 @@
 {
-  "name": "react-router-can-pass-props",
+  "name": "@ds3783/react-router",
   "version": "5.2.0",
   "description": "Declarative routing for React",
-  "repository": "ds3783/react-router-can-pass-props",
+  "repository": "ds3783/react-router",
   "license": "MIT",
   "author": "ds3783<ds3783@gmail.com>",
   "files": [
