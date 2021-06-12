@@ -5,18 +5,18 @@
 </p>
 
 <h3 align="center">
-  React Router
+  React Router can Pass Properties to Route component(s)
 </h3>
 
 <p align="center">
   Declarative routing for <a href="https://facebook.github.io/react">React</a>
 </p>
 
-<p align="center">
-  <a href="https://www.npmjs.com/package/react-router"><img src="https://img.shields.io/npm/v/react-router?style=flat-square"></a>
-  <a href="https://www.npmjs.com/package/react-router"><img src="https://img.shields.io/npm/dm/react-router?style=flat-square"></a>
-  <a href="https://travis-ci.com/ReactTraining/react-router"><img src="https://img.shields.io/travis/com/ReactTraining/react-router/master?style=flat-square"></a>
-</p>
+## Declaration
+
+1. The original react router repository is [here](https://github.com/ReactTraining/react-router)
+1. This fork only be used to resolve [the ulgy issue](https://github.com/ReactTraining/react-router/issues/7590) , which is the \<Route\> do not pass props to its component(s) or children.
+1. It took only less than 3 lines of code to resolve the ugly issue, rather than modify JSX code to go around.
 
 ## Docs
 

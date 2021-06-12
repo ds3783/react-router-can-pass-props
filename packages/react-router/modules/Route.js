@@ -41,7 +41,11 @@ class Route extends React.Component {
             ? matchPath(location.pathname, this.props)
             : context.match;
 
-          const props = { ...context, location, match };
+          const props = Object.assign(
+            { ...this.props },
+            { component: null, element: null, children: null },
+            { ...context, location, match }
+          );
 
           let { children, component, render } = this.props;
 
